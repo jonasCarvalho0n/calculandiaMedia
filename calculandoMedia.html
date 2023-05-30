@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Media</title>
+</head>
+<script>
+m = parseInt(prompt("Informe Media: "));
+aluno = String(prompt("Informa nome do Aluno: "));
+n1 = parseInt(prompt("Informar nota 1"));
+n2 = parseInt(prompt("Informar nota 2"));
+n3 = parseInt(prompt("Informar nota 3"));
+n4 = parseInt(prompt("informar nota 4"))
+media = (n1 + n2 + n3 + n4) / 4;
+    if (media >= m)
+        {
+    document.write ("Aluno: " + aluno + "<br>"  +  "Nota 1: " + n1 + "<br>" + "Nota 2: " + n2 + "<br>" + "Nota 3: " + n3 + "<br>" + "Nota 4: " + n4 + "<br>" + " Media: " + media + "<br>" + "Aprovado! " + "<br>");
+        }
+    else 
+        {
+    document.write ("Aluno: " + aluno + "<br>"  + "Nota 1: " + n1 + "<br>" + "Nota 2: " + n2 + "<br>" + "Nota 3: " + n3 + "<br>" + "Nota 4: " + n4 + "<br>" +  "Media: " + media + "<br>" + "Reprovado!" + "<br>");
+        }
+</script>    
+</html>
